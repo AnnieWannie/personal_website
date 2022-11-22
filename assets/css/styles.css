@@ -11,6 +11,7 @@
     --secondary-color: #fab3d7;
     --primary-shadow: #8dacb0;
     --secondary-shadow: #cecece;
+    --card-color: #acacac;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -119,9 +120,10 @@ nav ul li {
 }
 
 .bio {
-    width: 25rem;
+    width: 29.75rem;
     padding: 0.625rem;
     margin-top: 3.75rem;
+    margin-left: 1.75rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
@@ -130,7 +132,7 @@ nav ul li {
     margin-bottom: var(--bottom-margin);
 }
 
-.bio p{
+.bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
 }
@@ -141,26 +143,87 @@ nav ul li {
     max-width: 68.75rem;
     margin: auto;
     text-align: center;
-    margin-top: 2.5rem;
-  }
-  
-  .skill-header {
+    margin-top: 3.75rem;
+}
+
+.skill-header {
     margin-bottom: 1rem;
-  }
-  
-  .skills-wrapper img {
+}
+
+.skills-wrapper img {
     padding: 1.25rem;
-  }
-  
-  .icon {
+}
+
+.icon {
     width: 11.875rem;
     height: 11.25rem;
-  }
+}
 
-  .icon-card {
-    background-color: #acacac;
+.icon-card {
+    background-color: var(--card-color);
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
     margin: 10px;
-  }
+}
+
+/* Projects styling */
+
+.projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.project-container {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+.project-image {
+    width: 55%;
+    height: 55%;
+}
+
+.project-container p {
+    padding: 0.4rem;
+    color: black;
+}
+
+.project-container a {
+    color: black;
+    text-decoration-line: underline;
+    padding: 0.4rem;
+}
+
+.project-title {
+    margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+    margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+    background-color: var(--card-color);
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+    min-width: 295px;
+    min-height: 295px;
+    max-width: 295px;
+    max-height: 295px;
+}

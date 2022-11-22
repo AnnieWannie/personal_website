@@ -300,15 +300,15 @@ nav ul li {
     display: flex;
     flex-direction: row;
     position: fixed;
-    left: 12%;
-    top: 0%;
+    left: 10.5%;
+    top: 0.5%;
     z-index: 2;
   }
   
   .socicon {
     width: 2rem;
     height: 2rem;
-    margin: 1rem;
+    margin: 0.6rem;
   }
 
   /* Footer styling */

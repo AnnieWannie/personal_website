@@ -1,2 +1,3 @@
 # personal_website
-Personal website to display my skills and projects as a developer.
+Personal website to showcase my developer skills, projects, and socials.
+### Viewable [HERE](https://anniewannie.github.io/personal_website/)

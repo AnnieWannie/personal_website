@@ -10,7 +10,7 @@
     --primary-color: #fffea8;
     --secondary-color: #fab3d7;
     --primary-shadow: #8dacb0;
-    --secondary-shadow: #68425c;
+    --secondary-shadow: #cecece;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -102,6 +102,7 @@ nav ul li {
     display: none;
 }
 
+/*  Hero Styling */
 .hero {
     display: flex;
     align-items: center;
@@ -133,3 +134,33 @@ nav ul li {
     line-height: var(--line-height);
     padding: 0.3rem 0;
 }
+
+/* Skills styling */
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+
+  .icon-card {
+    background-color: #acacac;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }

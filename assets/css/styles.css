@@ -7,14 +7,14 @@
     --bolded-font: 750;
     --boldest-font: 950;
     --bg-color: #303636;
-    --primary-color: #1f93ad;
+    --primary-color: #4c8e9c;
     --secondary-color: #fab3d7;
     --primary-shadow: #8dacb0;
     --secondary-shadow: #68425c;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
-    --transition: 0.4s
+    --transition: 0.2s
 }
 
 html {
@@ -28,6 +28,7 @@ html {
     box-sizing: border-box;
 }
 
+/* Random  */
 ul {
     list-style-type: none;
 }
@@ -43,4 +44,50 @@ a:hover {
 
 body {
     font-family: var(--import-font);
+}
+
+/* Navbar styling */
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    color: var(--primary-color);
+}
+
+nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+    display: flex;
+    gap: 1.9rem;
+}
+
+nav ul li {
+    font-weight: var(--bolded-font)
+}
+
+.burger-menu {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
 }

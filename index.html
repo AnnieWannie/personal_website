@@ -57,14 +57,13 @@
     <h2>More About Me and This Website</h2>
     <p>
 
-    </p> -->
+    </p>
 
-  </section>
+  </section> -->
 
   <!-- Skills section -->
   <section class="skills" id="skills">
     <h2 class="skill-header">My Skills</h2>
-
     <div class="skills-wrapper">
 
       <div class="first-set animate__animated animate__pulse">
@@ -94,7 +93,7 @@
   <!-- Projects -->
   <section class="projects" id="projects">
     <h2 class="projects-title">My Projects</h2>
-    
+
     <div class="projects-container">
       <div class="project-container project-card">
         <img
@@ -152,8 +151,73 @@
           </p>
           <a href="#" target="_blank" class="project-link">Work in Progress</a>
       </div>
+
+      <div class="project-container project-card">
+        <img
+          src="assets/images/imageuploader.png"
+          alt="Image Uploader"
+          loading="lazy"
+          width="85%"
+          height="85%"
+        />
+        <h3 class="project-title">Image Uploader</h3>
+        <p class="project-details">
+          A website that allows for image submissions from visitors. Created using ReactJS and Express.JS
+        </p>
+        <a href="https://image-time-capsule.herokuapp.com" target="_blank" class="project-link">View it Here</a>
+    </div>
       </div>
 
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xdojjjrb" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="sender-name"
+              placeholder="Enter Your Name"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="sender-email"
+              placeholder="Enter Your Email"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              cols="60"
+              rows="10"
+              placeholder="Enter Your Message"
+              name="message"
+              class="input-field"
+              required
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            value="Submit"
+            id="submit-btn"
+            class="submit-btn"
+          />
+        </form>
+      </div>
+    </div>
   </section>
   <footer>
     icons by <a target="_blank" href="https://icons8.com">Icons8</a>

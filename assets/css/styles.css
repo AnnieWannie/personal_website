@@ -9,6 +9,7 @@
     --bg-color: #535555;
     --primary-color: #f1d867;
     --secondary-color: #fab3d7;
+    --navbar-color: #587eaa;
     --primary-shadow: #8dacb0;
     --secondary-shadow: #cecece;
     --card-color: #acacac;
@@ -67,7 +68,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 3.5rem;
-    background-color: #587eaa;
+    background-color: var(--navbar-color);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -308,4 +309,18 @@ nav ul li {
     width: 2rem;
     height: 2rem;
     margin: 1rem;
+  }
+
+  /* Footer styling */
+  .footy{
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0.1rem;
+    color: var(--primary-color);
+    background-color: var(--navbar-color);
+  }
+
+  .footy a {
+    color: black;
+    text-decoration-line: underline;
   }

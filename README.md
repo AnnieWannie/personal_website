@@ -1,7 +1,8 @@
 # personal_website
 
-Personal website to showcase my developer skills, projects, and socials.
-Styled and viewable on both desktop's and mobile.
+Personal website to showcase my developer skills, projects, and socials. <br>
+
+Includes responsive design allowing for viewing on both desktop and mobile.
 
 ### Viewable [HERE](https://anniewannie.github.io/personal_website/)
 

@@ -138,7 +138,7 @@ nav ul li {
 
 .hero img {
     height: 20rem;
-    width: 13.5rem;
+    width: 20rem;
     margin-top: 4rem;
 }
 
@@ -218,8 +218,10 @@ nav ul li {
 }
 
 .project-image {
-    width: 55%;
-    height: 55%;
+    min-width: 200px;
+    min-height: 125px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 .project-container p {
@@ -329,7 +331,7 @@ nav ul li {
 }
 
 .footy a {
-    color: black;
+    color: rgb(81, 191, 224);
     text-decoration-line: underline;
 }
 
@@ -375,7 +377,7 @@ nav ul li {
         position: absolute;
         top: 12%;
         height: 9rem;
-        width: 7rem;
+        width: 9rem;
     }
 
     .bio {

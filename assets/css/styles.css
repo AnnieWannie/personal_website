@@ -6,12 +6,12 @@
     --normal-font: 400;
     --bolded-font: 750;
     --boldest-font: 950;
-    --bg-color: #535555;
+    --bg-color: #272727;
     --primary-color: #f1d867;
-    --secondary-color: #fab3d7;
-    --navbar-color: #587eaa;
-    --primary-shadow: #8dacb0;
-    --secondary-shadow: #cecece;
+    --secondary-color: #b3e3fa;
+    --navbar-color: #361844;
+    --primary-shadow: #b895cc;
+    --secondary-shadow: #66c9f0;
     --card-color: #acacac;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
@@ -72,7 +72,7 @@ nav {
     z-index: 1;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 3.5rem;
+    padding: 0.2rem 3.5rem;
     background-color: var(--navbar-color);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }

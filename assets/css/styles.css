@@ -109,6 +109,23 @@ nav ul li {
     display: none;
 }
 
+/*  Socials styling */
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    left: 10.5%;
+    top: 0.5%;
+    z-index: 2;
+}
+
+.socicon {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.6rem;
+}
+
 /*  Hero Styling */
 .hero {
     display: flex;
@@ -301,22 +318,6 @@ nav ul li {
     cursor: pointer;
 }
 
-/*  Socials styling */
-
-.socials {
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    left: 10.5%;
-    top: 0.5%;
-    z-index: 2;
-}
-
-.socicon {
-    width: 2rem;
-    height: 2rem;
-    margin: 0.6rem;
-}
 
 /* Footer styling */
 .footy {

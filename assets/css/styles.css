@@ -109,7 +109,7 @@ nav ul li {
     display: none;
 }
 
-/*  Socials styling */
+/* Socials styling */
 
 .socials {
     display: flex;
@@ -375,7 +375,7 @@ nav ul li {
         position: absolute;
         top: 12%;
         height: 9rem;
-        width: 7rem; 
+        width: 7rem;
     }
 
     .bio {
@@ -391,7 +391,7 @@ nav ul li {
         margin: 0.2rem;
     }
 
-    .icon{
+    .icon {
         width: 5.875rem;
         height: 5.25rem;
     }
